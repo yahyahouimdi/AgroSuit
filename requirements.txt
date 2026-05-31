@@ -1,0 +1,18 @@
+# Core
+numpy>=1.26
+pandas>=2.1
+requests>=2.31
+
+# Dashboard & visualisation
+streamlit>=1.50
+streamlit-folium>=0.22
+folium>=0.17
+plotly>=5.22
+rich>=13.7
+
+# Testing
+pytest>=8.0
+
+# Optional: Sentinel-2 indices through Google Earth Engine
+# earthengine-api>=1.0
+# geemap>=0.34
