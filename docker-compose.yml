@@ -1,0 +1,12 @@
+services:
+  agrosuit:
+    build: .
+    container_name: agrosuit
+    ports:
+      - "8501:8501"
+    env_file:
+      - path: .env
+        required: false
+    volumes:
+      - ./data:/app/data
+      - ./outputs:/app/outputs
